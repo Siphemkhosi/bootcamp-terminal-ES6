@@ -12,7 +12,7 @@ export default function totalPhoneBill(billCost){
      //console.log(callCost)
     }
      var totalCost = callCost + smsCost;
-     console.log(totalCost)
+    
     }
      return "R" + totalCost.toFixed(2);
     }
